@@ -1,0 +1,2729 @@
+{
+	"data": [{
+			"id": 28,
+			"title": "L'Île Barbe",
+			"train_station": null,
+			"address": "Île Barbe 69009 Lyon France",
+			"latitude": 45.797934,
+			"longitude": 4.833584,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/33e75ff09dd601bbe69f351039152189/cover/ile-barbe-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/33e75ff09dd601bbe69f351039152189/cover/conversions/ile-barbe-02-thumb.jpg",
+			"distance": 8,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 140,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 1,
+					"name": "Balades"
+				}]
+			}]
+		},
+		{
+			"id": 45,
+			"title": "Pagode Thiện Minh",
+			"train_station": null,
+			"address": "Temple Pagode Thiện Minh 51 Rue de Cuzieu 69110 Sainte-Foy-lès-Lyon France",
+			"latitude": 45.731279,
+			"longitude": 4.783479,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/6c8349cc7260ae62e3b1396831a8398f/cover/pagode-thien-minh-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/6c8349cc7260ae62e3b1396831a8398f/cover/conversions/pagode-thien-minh-01-thumb.jpg",
+			"distance": 11,
+			"is_visited": true,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 213,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+					"id": 4,
+					"name": "Monuments"
+				}]
+			}]
+		},
+		{
+			"id": 72,
+			"title": "Grand Parc Miribel Jonage",
+			"train_station": "Gare de Miribel",
+			"address": "Grand Parc Miribel Jonage Chemin de la Bletta 69120 Vaulx-en-Velin Franc",
+			"latitude": 45.806389,
+			"longitude": 4.957314,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/32bb90e8976aab5298d5da10fe66f21d/cover/parc-miribel-jonage-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/32bb90e8976aab5298d5da10fe66f21d/cover/conversions/parc-miribel-jonage-01-thumb.jpg",
+			"distance": 6,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 66,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 50,
+			"title": "Demeure du Chaos",
+			"train_station": null,
+			"address": "Musée l'Organe - La demeure du chaos 17 Rue de la République 69270 Saint-Romain-au-Mont-d'Or France",
+			"latitude": 45.837459,
+			"longitude": 4.826721,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/c0c7c76d30bd3dcaefc96f40275bdc0a/cover/demeure-du-chaos-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/c0c7c76d30bd3dcaefc96f40275bdc0a/cover/conversions/demeure-du-chaos-01-thumb.jpg",
+			"distance": 11,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 103,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+					"id": 5,
+					"name": "Musées"
+				}]
+			}]
+		},
+		{
+			"id": 52,
+			"title": "Fort de Feyzin",
+			"train_station": null,
+			"address": "Fort De Feyzin 8 Route du Dr Jean Long 69320 Feyzin France",
+			"latitude": 45.672143,
+			"longitude": 4.866324,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/9a1158154dfa42caddbd0694a4e9bdc8/cover/fort-de-feyzin-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/9a1158154dfa42caddbd0694a4e9bdc8/cover/conversions/fort-de-feyzin-01-thumb.jpg",
+			"distance": 11,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 68,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 59,
+			"title": "Domaine de Lacroix-Laval",
+			"train_station": "Gare de Casino-Lacroix-Laval",
+			"address": "Domaine de Lacroix-Laval 1171 Avenue Lacroix Laval 69280 Marcy-l'Étoile France",
+			"latitude": 45.785654,
+			"longitude": 4.730769,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/093f65e080a295f8076b1c5722a46aa2/cover/domaine-lacroix-laval-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/093f65e080a295f8076b1c5722a46aa2/cover/conversions/domaine-lacroix-laval-01-thumb.jpg",
+			"distance": 15,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 49,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 79,
+			"title": "Couvent de la Tourette",
+			"train_station": "Gare de l'Arbresle",
+			"address": "Couvent de La Tourette Route de la Tourette 69210 Éveux France",
+			"latitude": 45.81939,
+			"longitude": 4.622495,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/d1fe173d08e959397adf34b1d77e88d7/cover/couvent-de-la-tourette-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/d1fe173d08e959397adf34b1d77e88d7/cover/conversions/couvent-de-la-tourette-01-thumb.jpg",
+			"distance": 24,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": true,
+			"is_closed": false,
+			"favorite_count": 27,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+						"id": 5,
+						"name": "Musées"
+					},
+					{
+						"id": 4,
+						"name": "Monuments"
+					}
+				]
+			}]
+		},
+		{
+			"id": 73,
+			"title": "Village de Trévoux",
+			"train_station": null,
+			"address": "Trévoux 01600",
+			"latitude": 45.94094,
+			"longitude": 4.774296,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/d2ddea18f00665ce8623e36bd4e3c7c5/cover/trevoux-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/d2ddea18f00665ce8623e36bd4e3c7c5/cover/conversions/trevoux-01-thumb.jpg",
+			"distance": 23,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 91,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 82,
+			"title": "Parc de Courzieu",
+			"train_station": null,
+			"address": "Parc de Courzieu, 1865 route du parc, Montmain la Côte, 69690 Courzieu",
+			"latitude": 45.750293,
+			"longitude": 4.601068,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/9778d5d219c5080b9a6a17bef029331c/cover/parc-courzieu-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/9778d5d219c5080b9a6a17bef029331c/cover/conversions/parc-courzieu-01-thumb.jpg",
+			"distance": 25,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 117,
+			"main_category": {
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences"
+			},
+			"tags_category": [{
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences",
+				"tags": [{
+					"id": 8,
+					"name": "Activités"
+				}]
+			}]
+		},
+		{
+			"id": 81,
+			"title": "Espace découverte du Pays de l'Arbresle",
+			"train_station": "Gare de l'Arbresle",
+			"address": "18 Place Sapeon, 69210 L'Arbresle",
+			"latitude": 45.836408,
+			"longitude": 4.618274,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/43ec517d68b6edd3015b3edc9a11367b/cover/espace-decouverte-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/43ec517d68b6edd3015b3edc9a11367b/cover/conversions/espace-decouverte-01-thumb.jpg",
+			"distance": 25,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 10,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+					"id": 5,
+					"name": "Musées"
+				}]
+			}]
+		},
+		{
+			"id": 78,
+			"title": "Géocaching dans les Monts du Lyonnais",
+			"train_station": null,
+			"address": "18 Place Sapeon, 69210 L'Arbresle, France",
+			"latitude": 45.836394,
+			"longitude": 4.618237,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/35f4a8d465e6e1edc05f3d8ab658c551/cover/geocaching-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/35f4a8d465e6e1edc05f3d8ab658c551/cover/conversions/geocaching-01-thumb.jpg",
+			"distance": 25,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": true,
+			"is_closed": false,
+			"favorite_count": 35,
+			"main_category": {
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 3,
+					"name": "Expériences",
+					"color": "#2bcbba",
+					"icon": "experiences",
+					"tags": [{
+						"id": 7,
+						"name": "Microaventures"
+					}]
+				}
+			]
+		},
+		{
+			"id": 75,
+			"title": "Balades Gourmandes",
+			"train_station": null,
+			"address": "18 Place Sapeon, 69210 L'Arbresle, France",
+			"latitude": 45.836464,
+			"longitude": 4.618236,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/d09bf41544a3365a46c9077ebb5e35c3/cover/balades-gourmandes-arbresle-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/d09bf41544a3365a46c9077ebb5e35c3/cover/conversions/balades-gourmandes-arbresle-01-thumb.jpg",
+			"distance": 25,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": true,
+			"is_closed": false,
+			"favorite_count": 54,
+			"main_category": {
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 3,
+					"name": "Expériences",
+					"color": "#2bcbba",
+					"icon": "experiences",
+					"tags": [{
+						"id": 7,
+						"name": "Microaventures"
+					}]
+				}
+			]
+		},
+		{
+			"id": 58,
+			"title": "La Cité des Étoiles",
+			"train_station": "Gare de Givors Ville",
+			"address": "Place Camille Vallin, 69700 Givors",
+			"latitude": 45.58251,
+			"longitude": 4.773038,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/66f041e16a60928b05a7e228a89c3799/cover/cite-des-etoiles-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/66f041e16a60928b05a7e228a89c3799/cover/conversions/cite-des-etoiles-01-thumb.jpg",
+			"distance": 23,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 16,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+					"id": 4,
+					"name": "Monuments"
+				}]
+			}]
+		},
+		{
+			"id": 80,
+			"title": "Carrières de Glay",
+			"train_station": null,
+			"address": "Carrières de Glay 924 Chemin des Carrières 69210 Saint-Germain-Nuelles France",
+			"latitude": 45.877456,
+			"longitude": 4.610714,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/f033ab37c30201f73f142449d037028d/cover/carrieres-glay-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/f033ab37c30201f73f142449d037028d/cover/conversions/carrieres-glay-01-thumb.jpg",
+			"distance": 27,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": true,
+			"is_closed": false,
+			"favorite_count": 128,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 3,
+						"name": "Points de vue"
+					}
+				]
+			}]
+		},
+		{
+			"id": 132,
+			"title": "Village de Bagnols",
+			"train_station": null,
+			"address": "Au Bourg, 69620 Bagnols, France",
+			"latitude": 45.91725,
+			"longitude": 4.607258,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/65ded5353c5ee48d0b7d48c591b8f430/cover/bagnols-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/65ded5353c5ee48d0b7d48c591b8f430/cover/conversions/bagnols-01-thumb.jpg",
+			"distance": 30,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 39,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 126,
+			"title": "Théâtre Antique de Vienne",
+			"train_station": "Gare de Vienne",
+			"address": "Théâtre Antique de Vienne 7 Rue du Cirque 38200 Vienne France",
+			"latitude": 45.524859,
+			"longitude": 4.878573,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/069059b7ef840f0c74a814ec9237b6ec/cover/theatre-antique-vienne-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/069059b7ef840f0c74a814ec9237b6ec/cover/conversions/theatre-antique-vienne-01-thumb.jpg",
+			"distance": 27,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 49,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 3,
+						"name": "Points de vue"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+							"id": 5,
+							"name": "Musées"
+						},
+						{
+							"id": 4,
+							"name": "Monuments"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 127,
+			"title": "Village de Theizé",
+			"train_station": null,
+			"address": "Le Bourg, Theizé",
+			"latitude": 45.940214,
+			"longitude": 4.61647,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/ec5decca5ed3d6b8079e2e7e7bacc9f2/cover/theize-03.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/ec5decca5ed3d6b8079e2e7e7bacc9f2/cover/conversions/theize-03-thumb.jpg",
+			"distance": 31,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 97,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 47,
+			"title": "Cité médiévale de Pérouges",
+			"train_station": "Gare de Meximieux-Pérouges",
+			"address": "1 Rue des Princes, 01800 Pérouges, France",
+			"latitude": 45.903151,
+			"longitude": 5.179421,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/67c6a1e7ce56d3d6fa748ab6d9af3fd7/cover/perouges-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/67c6a1e7ce56d3d6fa748ab6d9af3fd7/cover/conversions/perouges-01-thumb.jpg",
+			"distance": 26,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 164,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 53,
+			"title": "Village de Oingt",
+			"train_station": null,
+			"address": "45 Montée de l'Église 69620 Val d'Oingt",
+			"latitude": 45.947964,
+			"longitude": 4.58233,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/d82c8d1619ad8176d665453cfb2e55f0/cover/oingt-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/d82c8d1619ad8176d665453cfb2e55f0/cover/conversions/oingt-02-thumb.jpg",
+			"distance": 33,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 88,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 188,
+			"title": "Village de Crémieu",
+			"train_station": null,
+			"address": "Cité Médiévale de Crémieu Place de la Nation Charles de Gaulle 38460 Crémieu France",
+			"latitude": 45.724691,
+			"longitude": 5.249855,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/9dcb88e0137649590b755372b040afad/cover/cremieu-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/9dcb88e0137649590b755372b040afad/cover/conversions/cremieu-01-thumb.jpg",
+			"distance": 26,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 5,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 92,
+			"title": "Village de Ternand",
+			"train_station": null,
+			"address": "Le Bourg, 69620 Ternand",
+			"latitude": 45.944429,
+			"longitude": 4.528902,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/92cc227532d17e56e07902b254dfad10/cover/ternand-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/92cc227532d17e56e07902b254dfad10/cover/conversions/ternand-01-thumb.jpg",
+			"distance": 36,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 44,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 152,
+			"title": "Village de Sainte-Croix-en-Jarez",
+			"train_station": null,
+			"address": "1 Le Bourg, 42800 Sainte-Croix-en-Jarez, France",
+			"latitude": 45.479151,
+			"longitude": 4.646831,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/37a749d808e46495a8da1e5352d03cae/cover/sainte-croix-en-jarez-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/37a749d808e46495a8da1e5352d03cae/cover/conversions/sainte-croix-en-jarez-01-thumb.jpg",
+			"distance": 38,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 24,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 65,
+			"title": "Village de Chamelet",
+			"train_station": "Gare de Chamelet",
+			"address": "41 Rue de Prony, 69620 Chamelet",
+			"latitude": 45.983092,
+			"longitude": 4.51,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/fc490ca45c00b1249bbe3554a4fdf6fb/cover/chamelet-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/fc490ca45c00b1249bbe3554a4fdf6fb/cover/conversions/chamelet-01-thumb.jpg",
+			"distance": 40,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 26,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 101,
+			"title": "Châtillon-sur-Chalaronne",
+			"train_station": null,
+			"address": "Place de l'Hôtel de ville 01400 Châtillon-sur-Chalaronne",
+			"latitude": 46.119686,
+			"longitude": 4.957593,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/38b3eff8baf56627478ec76a704e9b52/cover/chatillon-sur-chalaronne-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/38b3eff8baf56627478ec76a704e9b52/cover/conversions/chatillon-sur-chalaronne-01-thumb.jpg",
+			"distance": 40,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 38,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 122,
+			"title": "Mont Brouilly",
+			"train_station": null,
+			"address": "Chapelle du Mont Brouilly 69220 Saint-Lager France",
+			"latitude": 46.107336,
+			"longitude": 4.654842,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/a0a080f42e6f13b3a2df133f073095dd/cover/mont-brouilly-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/a0a080f42e6f13b3a2df133f073095dd/cover/conversions/mont-brouilly-01-thumb.jpg",
+			"distance": 43,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 108,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 3,
+						"name": "Points de vue"
+					}
+				]
+			}]
+		},
+		{
+			"id": 74,
+			"title": "Lac des Sapins",
+			"train_station": null,
+			"address": "Lac des Sapins 69550 Cublize",
+			"latitude": 46.00697,
+			"longitude": 4.369691,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/ad61ab143223efbc24c7d2583be69251/cover/lac-des-sapins-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/ad61ab143223efbc24c7d2583be69251/cover/conversions/lac-des-sapins-01-thumb.jpg",
+			"distance": 50,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 109,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 89,
+			"title": "Crêt de la Perdrix",
+			"train_station": null,
+			"address": "Crêt de la Perdrix 42220 Graix",
+			"latitude": 45.382236,
+			"longitude": 4.572992,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/7647966b7343c29048673252e490f736/cover/cret-perdrix-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/7647966b7343c29048673252e490f736/cover/conversions/cret-perdrix-01-thumb.jpg",
+			"distance": 50,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 79,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 3,
+						"name": "Points de vue"
+					}
+				]
+			}]
+		},
+		{
+			"id": 177,
+			"title": "Barrage du Gouffre d'Enfer",
+			"train_station": null,
+			"address": "Barrage du Gouffre d'Enfer, 42660 Planfoy, France",
+			"latitude": 45.392913,
+			"longitude": 4.445922,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/96da2f590cd7246bbde0051047b0d6f7/cover/barrage-gouffre-enfer-06.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/96da2f590cd7246bbde0051047b0d6f7/cover/conversions/barrage-gouffre-enfer-06-thumb.jpg",
+			"distance": 55,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 33,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 3,
+						"name": "Points de vue"
+					}
+				]
+			}]
+		},
+		{
+			"id": 124,
+			"title": "Monastère Royal de Brou",
+			"train_station": "Gare de Bourg-en-Bresse",
+			"address": "Monastère Royal de Brou 63 Boulevard de Brou 01000 Bourg-en-Bresse France",
+			"latitude": 46.197959,
+			"longitude": 5.236224,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/c8ffe9a587b126f152ed3d89a146b445/cover/monastere-de-brou-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/c8ffe9a587b126f152ed3d89a146b445/cover/conversions/monastere-de-brou-01-thumb.jpg",
+			"distance": 54,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 39,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+					"id": 4,
+					"name": "Monuments"
+				}]
+			}]
+		},
+		{
+			"id": 37,
+			"title": "Palais Idéal du Facteur Cheval",
+			"train_station": null,
+			"address": "Palais Idéal du Facteur Cheval 8 Rue du Palais 26390 Hauterives France",
+			"latitude": 45.256538,
+			"longitude": 5.028223,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/a5bfc9e07964f8dddeb95fc584cd965d/cover/palais-ideal-du-facteur-cheval-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/a5bfc9e07964f8dddeb95fc584cd965d/cover/conversions/palais-ideal-du-facteur-cheval-01-thumb.jpg",
+			"distance": 57,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 182,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+						"id": 5,
+						"name": "Musées"
+					},
+					{
+						"id": 4,
+						"name": "Monuments"
+					}
+				]
+			}]
+		},
+		{
+			"id": 43,
+			"title": "Belvédère sur l'Île de Grangent",
+			"train_station": null,
+			"address": "Île de Grangent 42170 Saint-Just-Saint-Rambert",
+			"latitude": 45.464167,
+			"longitude": 4.251111,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/17e62166fc8586dfa4d1bc0e1742c08b/cover/ile-de-grangent-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/17e62166fc8586dfa4d1bc0e1742c08b/cover/conversions/ile-de-grangent-01-thumb.jpg",
+			"distance": 62,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 143,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+							"id": 3,
+							"name": "Points de vue"
+						},
+						{
+							"id": 1,
+							"name": "Balades"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 163,
+			"title": "Cascade de Glandieu",
+			"train_station": null,
+			"address": "Cascade de Glandieu 926 Rue de la Cascade 01300 Brégnier-Cordon France",
+			"latitude": 45.665085,
+			"longitude": 5.613852,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/0777d5c17d4066b82ab86dff8a46af6f/cover/cascade-glandieu-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/0777d5c17d4066b82ab86dff8a46af6f/cover/conversions/cascade-glandieu-02-thumb.jpg",
+			"distance": 55,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 34,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 9,
+						"name": "Cascades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 38,
+			"title": "Château de la Roche",
+			"train_station": null,
+			"address": "Route touristique des Bords de Loire, 42590 Saint-Priest-la-Roche",
+			"latitude": 45.89609,
+			"longitude": 4.101776,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/a5771bce93e200c36f7cd9dfd0e5deaa/cover/chateau-de-la-roche-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/a5771bce93e200c36f7cd9dfd0e5deaa/cover/conversions/chateau-de-la-roche-01-thumb.jpg",
+			"distance": 65,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 143,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 48,
+			"title": "Site Le Corbusier de Firminy-Vert",
+			"train_station": "Gare de Firminy",
+			"address": "Maison de la culture, Boulevard Périphérique du Stade, 42700 Firminy",
+			"latitude": 45.382386,
+			"longitude": 4.289271,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/642e92efb79421734881b53e1e1b18b6/cover/le-corbusier-firminy-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/642e92efb79421734881b53e1e1b18b6/cover/conversions/le-corbusier-firminy-01-thumb.jpg",
+			"distance": 65,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 26,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+							"id": 5,
+							"name": "Musées"
+						},
+						{
+							"id": 4,
+							"name": "Monuments"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 183,
+			"title": "Prieuré de Saint-Romain-le-Puy",
+			"train_station": null,
+			"address": "3 Montée de Maubec, 42610 Saint-Romain-le-Puy, France",
+			"latitude": 45.555418,
+			"longitude": 4.125563,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/cedebb6e872f539bef8c3f919874e9d7/cover/prieure-de-saint-romain-le-puy-05.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/cedebb6e872f539bef8c3f919874e9d7/cover/conversions/prieure-de-saint-romain-le-puy-05-thumb.jpg",
+			"distance": 66,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 6,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 3,
+						"name": "Points de vue"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 93,
+			"title": "Lac de Paladru",
+			"train_station": null,
+			"address": "Lac de Paladru Montreley 38490 Charancieu France",
+			"latitude": 45.454953,
+			"longitude": 5.536938,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/98dce83da57b0395e163467c9dae521b/cover/lac-paladru-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/98dce83da57b0395e163467c9dae521b/cover/conversions/lac-paladru-01-thumb.jpg",
+			"distance": 59,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 153,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 96,
+			"title": "Réserve du marais de Lavours",
+			"train_station": null,
+			"address": "Réserve naturelle nationale du marais de Lavours, 01350 Ceyzérieu",
+			"latitude": 45.833177,
+			"longitude": 5.747036,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/26657d5ff9020d2abefe558796b99584/cover/marais-de-lavours-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/26657d5ff9020d2abefe558796b99584/cover/conversions/marais-de-lavours-01-thumb.jpg",
+			"distance": 65,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 92,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 1,
+					"name": "Balades"
+				}]
+			}]
+		},
+		{
+			"id": 154,
+			"title": "Abbaye bénédictine de Charlieu",
+			"train_station": null,
+			"address": "Abbaye bénédictine de Charlieu Place de l'Abbaye 42190 Charlieu France",
+			"latitude": 46.157759,
+			"longitude": 4.168211,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/1d7f7abc18fcb43975065399b0d1e48e/cover/abbaye-charlieu-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/1d7f7abc18fcb43975065399b0d1e48e/cover/conversions/abbaye-charlieu-02-thumb.jpg",
+			"distance": 73,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 7,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+					"id": 4,
+					"name": "Monuments"
+				}]
+			}]
+		},
+		{
+			"id": 63,
+			"title": "Lac de Nantua",
+			"train_station": "Gare de Brion-Montréal La Cluse",
+			"address": "Lac de Nantua, Nantua",
+			"latitude": 46.160152,
+			"longitude": 5.58885,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/03afdbd66e7929b125f8597834fa83a4/cover/lac-nantua-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/03afdbd66e7929b125f8597834fa83a4/cover/conversions/lac-nantua-01-thumb.jpg",
+			"distance": 68,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 75,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 95,
+			"title": "Grand Colombier",
+			"train_station": null,
+			"address": "Grand Colombier 01260 Arvière-en-Valromey France",
+			"latitude": 45.906389,
+			"longitude": 5.761389,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/812b4ba287f5ee0bc9d43bbf5bbe87fb/cover/grand-colombier-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/812b4ba287f5ee0bc9d43bbf5bbe87fb/cover/conversions/grand-colombier-01-thumb.jpg",
+			"distance": 67,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 100,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 3,
+						"name": "Points de vue"
+					}
+				]
+			}]
+		},
+		{
+			"id": 71,
+			"title": "Cité médiévale de Saint-Antoine-l'Abbaye",
+			"train_station": null,
+			"address": "Abbaye de Saint-Antoine 38160 Saint-Antoine-l'Abbaye",
+			"latitude": 45.175068,
+			"longitude": 5.217543,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/e2c420d928d4bf8ce0ff2ec19b371514/cover/saint-antoine-abbaye-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/e2c420d928d4bf8ce0ff2ec19b371514/cover/conversions/saint-antoine-abbaye-01-thumb.jpg",
+			"distance": 69,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 99,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 186,
+			"title": "Canal de Savières",
+			"train_station": null,
+			"address": "313 Route du Canal, 73310 Chanaz, France",
+			"latitude": 45.808839,
+			"longitude": 5.791,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/9872ed9fc22fc182d371c3e9ed316094/cover/canal-de-savieres-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/9872ed9fc22fc182d371c3e9ed316094/cover/conversions/canal-de-savieres-02-thumb.jpg",
+			"distance": 68,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 11,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 1,
+					"name": "Balades"
+				}]
+			}]
+		},
+		{
+			"id": 155,
+			"title": "Abbaye d'Hautecombe",
+			"train_station": null,
+			"address": "Abbaye d'Hautecombe 73310 Saint-Pierre-de-Curtille France",
+			"latitude": 45.752807,
+			"longitude": 5.83938,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/2a79ea27c279e471f4d180b08d62b00a/cover/abbaye-hautecombe-04.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/2a79ea27c279e471f4d180b08d62b00a/cover/conversions/abbaye-hautecombe-04-thumb.jpg",
+			"distance": 71,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 12,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 3,
+						"name": "Points de vue"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 64,
+			"title": "Lac d'Aiguebelette",
+			"train_station": "Gare de Lépin-le-Lac",
+			"address": "Lac Aiguebelette 73470 Novalaise France",
+			"latitude": 45.555451,
+			"longitude": 5.798467,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/ea5d2f1c4608232e07d3aa3d998e5135/cover/lac-aiguebelette-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/ea5d2f1c4608232e07d3aa3d998e5135/cover/conversions/lac-aiguebelette-01-thumb.jpg",
+			"distance": 72,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 106,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 199,
+			"title": "Colline de l'Hermitage",
+			"train_station": "Tain-l'Hermitage",
+			"address": "Colline de l'Hermitage",
+			"latitude": 45.077525,
+			"longitude": 4.841015,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/84d9ee44e457ddef7f2c4f25dc8fa865/cover/colline-hermitage-06_A-Stenger_CRT-AURA.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/84d9ee44e457ddef7f2c4f25dc8fa865/cover/conversions/colline-hermitage-06_A-Stenger_CRT-AURA-thumb.jpg",
+			"distance": 76,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": true,
+			"is_closed": false,
+			"favorite_count": 3,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 3,
+						"name": "Points de vue"
+					}
+				]
+			}]
+		},
+		{
+			"id": 195,
+			"title": "Chasses aux trésors en Ardèche Hermitage",
+			"train_station": "Tain-l'Hermitage.",
+			"address": "6 Place du 8 Mai 1945, 26600 Tain-l'Hermitage",
+			"latitude": 45.069062,
+			"longitude": 4.838008,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/0336dcbab05b9d5ad24f4333c7658a0e/cover/chasse-aux-tresors-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/0336dcbab05b9d5ad24f4333c7658a0e/cover/conversions/chasse-aux-tresors-01-thumb.jpg",
+			"distance": 77,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 4,
+			"main_category": {
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 3,
+					"name": "Expériences",
+					"color": "#2bcbba",
+					"icon": "experiences",
+					"tags": [{
+						"id": 8,
+						"name": "Activités"
+					}]
+				}
+			]
+		},
+		{
+			"id": 196,
+			"title": "Cité du Chocolat Valrhona",
+			"train_station": "Tain-l'Hermitage",
+			"address": "Cité du Chocolat Valrhona 12 Avenue du Président Roosevelt 26600 Tain-l'Hermitage France",
+			"latitude": 45.068518,
+			"longitude": 4.843591,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/084b6fbb10729ed4da8c3d3f5a3ae7c9/cover/cite-chocolat-valrhona-L-Vu-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/084b6fbb10729ed4da8c3d3f5a3ae7c9/cover/conversions/cite-chocolat-valrhona-L-Vu-02-thumb.jpg",
+			"distance": 77,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 2,
+			"main_category": {
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences"
+			},
+			"tags_category": [{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 5,
+						"name": "Musées"
+					}]
+				},
+				{
+					"id": 3,
+					"name": "Expériences",
+					"color": "#2bcbba",
+					"icon": "experiences",
+					"tags": [{
+						"id": 8,
+						"name": "Activités"
+					}]
+				}
+			]
+		},
+		{
+			"id": 51,
+			"title": "Château-Musée de Tournon",
+			"train_station": "Gare de Tain L'Hermitage",
+			"address": "Château-Musée de Tournon-sur-Rhône 14 Place Auguste Faure 07300 Tournon-sur-Rhône France",
+			"latitude": 45.068228,
+			"longitude": 4.831973,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/2838023a778dfaecdc212708f721b788/cover/chateau-de-tournon-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/2838023a778dfaecdc212708f721b788/cover/conversions/chateau-de-tournon-01-thumb.jpg",
+			"distance": 78,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 43,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+						"id": 5,
+						"name": "Musées"
+					},
+					{
+						"id": 4,
+						"name": "Monuments"
+					}
+				]
+			}]
+		},
+		{
+			"id": 142,
+			"title": "Cascade de Chorsin",
+			"train_station": null,
+			"address": "Cascade de Chorsin 42990 Sauvain",
+			"latitude": 45.640707,
+			"longitude": 3.862566,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/a8baa56554f96369ab93e4f3bb068c22/cover/cascade-chorsin-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/a8baa56554f96369ab93e4f3bb068c22/cover/conversions/cascade-chorsin-01-thumb.jpg",
+			"distance": 83,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 141,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 9,
+						"name": "Cascades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 197,
+			"title": "Journée découverte de la truffe",
+			"train_station": null,
+			"address": "Truffière La Baume Saint-Antoine 2922 Route Des Balmes 26100 Romans-sur-Isère.",
+			"latitude": 45.060676,
+			"longitude": 5.003653,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/85d8ce590ad8981ca2c8286f79f59954/cover/journee-decouverte-truffe-03.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/85d8ce590ad8981ca2c8286f79f59954/cover/conversions/journee-decouverte-truffe-03-thumb.jpg",
+			"distance": 78,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": true,
+			"is_closed": false,
+			"favorite_count": 4,
+			"main_category": {
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences"
+			},
+			"tags_category": [{
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences",
+				"tags": [{
+					"id": 8,
+					"name": "Activités"
+				}]
+			}]
+		},
+		{
+			"id": 61,
+			"title": "Lac du Bourget",
+			"train_station": "Gare d'Aix-les-Bains",
+			"address": "Plage du rowing Aix-les-Bains 73100",
+			"latitude": 45.688805,
+			"longitude": 5.895137,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/7f39f8317fbdb1988ef4c628eba02591/cover/lac-du-bourget-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/7f39f8317fbdb1988ef4c628eba02591/cover/conversions/lac-du-bourget-01-thumb.jpg",
+			"distance": 76,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 105,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 198,
+			"title": "Le Jardin Zen d'Erik Borja",
+			"train_station": null,
+			"address": "Jardin Zen d'Erik Borja 530 Chemin du jardin zen 26600 Beaumont-Monteux France",
+			"latitude": 45.043633,
+			"longitude": 4.949995,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/0e65972dce68dad4d52d063967f0a705/cover/jardin-zen-erik-borja-05.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/0e65972dce68dad4d52d063967f0a705/cover/conversions/jardin-zen-erik-borja-05-thumb.jpg",
+			"distance": 80,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 4,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 3,
+					"name": "Expériences",
+					"color": "#2bcbba",
+					"icon": "experiences",
+					"tags": [{
+						"id": 8,
+						"name": "Activités"
+					}]
+				}
+			]
+		},
+		{
+			"id": 118,
+			"title": "Volcan du Montpeloux",
+			"train_station": null,
+			"address": "Orgues basaltiques et volcan de Montpeloux Montpeloux 63840 Saillant France",
+			"latitude": 45.471917,
+			"longitude": 3.912253,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/5ef059938ba799aaa845e1c2e8a762bd/cover/montpeloux-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/5ef059938ba799aaa845e1c2e8a762bd/cover/conversions/montpeloux-01-thumb.jpg",
+			"distance": 85,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 150,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 1,
+					"name": "Balades"
+				}]
+			}]
+		},
+		{
+			"id": 29,
+			"title": "Lac Genin",
+			"train_station": null,
+			"address": "Espace naturel sensible du Lac Genin, 01130 Charix, France",
+			"latitude": 46.220506,
+			"longitude": 5.697929,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/6ea9ab1baa0efb9e19094440c317e21b/cover/lac-genin-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/6ea9ab1baa0efb9e19094440c317e21b/cover/conversions/lac-genin-01-thumb.jpg",
+			"distance": 79,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 90,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 100,
+			"title": "Les Pertes de la Valserine",
+			"train_station": null,
+			"address": "Les Pertes de la Valserine, 01200 Valserhône, France",
+			"latitude": 46.123545,
+			"longitude": 5.820699,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/f899139df5e1059396431415e770c6dd/cover/pertes-de-la-valserine-03.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/f899139df5e1059396431415e770c6dd/cover/conversions/pertes-de-la-valserine-03-thumb.jpg",
+			"distance": 80,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 199,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 1,
+					"name": "Balades"
+				}]
+			}]
+		},
+		{
+			"id": 90,
+			"title": "Tour du Monastère de la Grande Chartreuse",
+			"train_station": null,
+			"address": "Monastère de la Grande Chartreuse 428 Couvent de Grande Chartreu 38380 Saint-Pierre-de-Chartreuse France",
+			"latitude": 45.364134,
+			"longitude": 5.793873,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/8613985ec49eb8f757ae6439e879bb2a/cover/monastere-grande-chartreuse-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/8613985ec49eb8f757ae6439e879bb2a/cover/conversions/monastere-grande-chartreuse-01-thumb.jpg",
+			"distance": 81,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 48,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 1,
+						"name": "Balades"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 182,
+			"title": "Belvédère du Charmant Som",
+			"train_station": null,
+			"address": "Charmant Som 38380 Saint-Pierre-de-Chartreuse",
+			"latitude": 45.325053,
+			"longitude": 5.764144,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/4c5bde74a8f110656874902f07378009/cover/charmant-som-03.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/4c5bde74a8f110656874902f07378009/cover/conversions/charmant-som-03-thumb.jpg",
+			"distance": 82,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 6,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 1,
+						"name": "Balades"
+					},
+					{
+						"id": 3,
+						"name": "Points de vue"
+					}
+				]
+			}]
+		},
+		{
+			"id": 145,
+			"title": "Belvédère du Revard",
+			"train_station": null,
+			"address": "Belvédère du Revard 73230 Les Deserts France",
+			"latitude": 45.681866,
+			"longitude": 5.974948,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/2b24d495052a8ce66358eb576b8912c8/cover/mont-revard-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/2b24d495052a8ce66358eb576b8912c8/cover/conversions/mont-revard-02-thumb.jpg",
+			"distance": 83,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 76,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 3,
+					"name": "Points de vue"
+				}]
+			}]
+		},
+		{
+			"id": 30,
+			"title": "Village de Pont-en-Royans",
+			"train_station": null,
+			"address": "38680 Pont-en-Royans",
+			"latitude": 45.060917,
+			"longitude": 5.344158,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/34173cb38f07f89ddbebc2ac9128303f/cover/pont-en-royans-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/34173cb38f07f89ddbebc2ac9128303f/cover/conversions/pont-en-royans-01-thumb.jpg",
+			"distance": 85,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 128,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+							"id": 1,
+							"name": "Balades"
+						},
+						{
+							"id": 3,
+							"name": "Points de vue"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 6,
+						"name": "Villages"
+					}]
+				}
+			]
+		},
+		{
+			"id": 149,
+			"title": "Fort l'Écluse",
+			"train_station": null,
+			"address": "10 Route de Genève, 01200 Léaz, France",
+			"latitude": 46.120265,
+			"longitude": 5.891982,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/f2217062e9a397a1dca429e7d70bc6ca/cover/fort-ecluse-02.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/f2217062e9a397a1dca429e7d70bc6ca/cover/conversions/fort-ecluse-02-thumb.jpg",
+			"distance": 85,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": true,
+			"favorite_count": 16,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 3,
+						"name": "Points de vue"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 148,
+			"title": "Cirque de Saint-Même",
+			"train_station": null,
+			"address": "Grande Cascade du Cirque de Saint Même 73670 Saint-Pierre-d'Entremont France",
+			"latitude": 45.391569,
+			"longitude": 5.891327,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/47d1e990583c9c67424d369f3414728e/cover/cirque-saint-meme-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/47d1e990583c9c67424d369f3414728e/cover/conversions/cirque-saint-meme-01-thumb.jpg",
+			"distance": 86,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 59,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 1,
+					"name": "Balades"
+				}]
+			}]
+		},
+		{
+			"id": 136,
+			"title": "Fort Saint-Eynard",
+			"train_station": null,
+			"address": "Fort du Saint-Eynard 38700 Le Sappey-en-Chartreuse France",
+			"latitude": 45.234785,
+			"longitude": 5.763421,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/42a0e188f5033bc65bf8d78622277c4e/cover/fort-saint-eynard-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/42a0e188f5033bc65bf8d78622277c4e/cover/conversions/fort-saint-eynard-01-thumb.jpg",
+			"distance": 88,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 38,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+							"id": 3,
+							"name": "Points de vue"
+						},
+						{
+							"id": 1,
+							"name": "Balades"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 123,
+			"title": "Chateau de Crussol",
+			"train_station": null,
+			"address": "Château de Crussol, Chemin de Beauregard, 07130 Saint-Péray",
+			"latitude": 44.939642,
+			"longitude": 4.852002,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/202cb962ac59075b964b07152d234b70/cover/chateau-de-crussol-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/202cb962ac59075b964b07152d234b70/cover/conversions/chateau-de-crussol-01-thumb.jpg",
+			"distance": 92,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 81,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+							"id": 3,
+							"name": "Points de vue"
+						},
+						{
+							"id": 1,
+							"name": "Balades"
+						}
+					]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 66,
+			"title": "Fort de la Bastille",
+			"train_station": "Gare de Grenoble",
+			"address": "Fort de La Bastille, Quai Stéphane Jay, Grenoble Rechercher dans Google Maps",
+			"latitude": 45.199042,
+			"longitude": 5.724513,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/3295c76acbf4caaed33c36b1b5fc2cb1/cover/fort-bastille-grenoble-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/3295c76acbf4caaed33c36b1b5fc2cb1/cover/conversions/fort-bastille-grenoble-01-thumb.jpg",
+			"distance": 89,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 69,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+							"id": 3,
+							"name": "Points de vue"
+						},
+						{
+							"id": 1,
+							"name": "Balades"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"name": "Expériences",
+					"color": "#2bcbba",
+					"icon": "experiences",
+					"tags": [{
+						"id": 8,
+						"name": "Activités"
+					}]
+				}
+			]
+		},
+		{
+			"id": 54,
+			"title": "Ravin de Corboeuf",
+			"train_station": null,
+			"address": "Ravin de Corbœuf, 43800 Rosières",
+			"latitude": 45.129144,
+			"longitude": 3.997884,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/a684eceee76fc522773286a895bc8436/cover/ravin-de-corboeuf-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/a684eceee76fc522773286a895bc8436/cover/conversions/ravin-de-corboeuf-01-thumb.jpg",
+			"distance": 101,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 120,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+					"id": 1,
+					"name": "Balades"
+				}]
+			}]
+		},
+		{
+			"id": 110,
+			"title": "Lac Bleu",
+			"train_station": null,
+			"address": "Le Lac Bleu 43430 Champclause",
+			"latitude": 45.036785,
+			"longitude": 4.154237,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/5f93f983524def3dca464469d2cf9f3e/cover/lac-bleu-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/5f93f983524def3dca464469d2cf9f3e/cover/conversions/lac-bleu-01-thumb.jpg",
+			"distance": 100,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 157,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 46,
+			"title": "Lac d'Annecy",
+			"train_station": "Gare d'Annecy",
+			"address": "Jardins de l'Europe, Quai Napoléon III, 74000 Annecy, France",
+			"latitude": 45.899223,
+			"longitude": 6.131251,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/d9d4f495e875a2e075a1a4a6e1b9770f/cover/lac-annecy-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/d9d4f495e875a2e075a1a4a6e1b9770f/cover/conversions/lac-annecy-01-thumb.jpg",
+			"distance": 95,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 126,
+			"main_category": {
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature"
+			},
+			"tags_category": [{
+				"id": 1,
+				"name": "Nature",
+				"color": "#9dd15a",
+				"icon": "place_nature",
+				"tags": [{
+						"id": 2,
+						"name": "Lacs"
+					},
+					{
+						"id": 1,
+						"name": "Balades"
+					}
+				]
+			}]
+		},
+		{
+			"id": 32,
+			"title": "Le Pont de la Caille",
+			"train_station": null,
+			"address": "Le Pont de la Caille, 74350 Cruseilles",
+			"latitude": 46.012625,
+			"longitude": 6.111527,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/6364d3f0f495b6ab9dcf8d3b5c6e0b01/cover/pont-de-la-caille-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/6364d3f0f495b6ab9dcf8d3b5c6e0b01/cover/conversions/pont-de-la-caille-01-thumb.jpg",
+			"distance": 96,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 31,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+					"id": 1,
+					"name": "Nature",
+					"color": "#9dd15a",
+					"icon": "place_nature",
+					"tags": [{
+						"id": 3,
+						"name": "Points de vue"
+					}]
+				},
+				{
+					"id": 2,
+					"name": "Patrimoine",
+					"color": "#ff9c5b",
+					"icon": "place_musee",
+					"tags": [{
+						"id": 4,
+						"name": "Monuments"
+					}]
+				}
+			]
+		},
+		{
+			"id": 194,
+			"title": "Se balader en chiens de traîneaux dans le Vercors",
+			"train_station": null,
+			"address": "Ecole de chiens de traîneaux - Sensations Nordiques Les Croix 26420 La Chapelle-en-Vercors France",
+			"latitude": 44.939994,
+			"longitude": 5.390013,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/a597e50502f5ff68e3e25b9114205d4a/cover/sensations-nordiques-04.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/a597e50502f5ff68e3e25b9114205d4a/cover/conversions/sensations-nordiques-04-thumb.jpg",
+			"distance": 99,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": true,
+			"is_closed": false,
+			"favorite_count": 5,
+			"main_category": {
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences"
+			},
+			"tags_category": [{
+				"id": 3,
+				"name": "Expériences",
+				"color": "#2bcbba",
+				"icon": "experiences",
+				"tags": [{
+					"id": 7,
+					"name": "Microaventures"
+				}]
+			}]
+		},
+		{
+			"id": 56,
+			"title": "Le Creux de l'Enfer",
+			"train_station": null,
+			"address": "Le Creux de L'Enfer 85 Avenue Joseph Claussat 63300 Thiers France",
+			"latitude": 45.850179,
+			"longitude": 3.549096,
+			"image_fullsize": "https://storage.googleapis.com/prairy-prod/spots/9f61408e3afb633e50cdf1b20de6f466/cover/creux-de-l-enfer-01.jpg",
+			"image_thumbnail": "https://storage.googleapis.com/prairy-prod/spots/9f61408e3afb633e50cdf1b20de6f466/cover/conversions/creux-de-l-enfer-01-thumb.jpg",
+			"distance": 107,
+			"is_visited": false,
+			"is_favorite": false,
+			"is_recommended": false,
+			"is_closed": false,
+			"favorite_count": 47,
+			"main_category": {
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee"
+			},
+			"tags_category": [{
+				"id": 2,
+				"name": "Patrimoine",
+				"color": "#ff9c5b",
+				"icon": "place_musee",
+				"tags": [{
+						"id": 5,
+						"name": "Musées"
+					},
+					{
+						"id": 4,
+						"name": "Monuments"
+					}
+				]
+			}]
+		}
+	]
+}
