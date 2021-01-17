@@ -8,6 +8,7 @@ Vous trouverez dans ce projet le singleton **SpotManager** (lib/core/manager/spo
 Les données sont parsées depuis le fichier spots.json se trouvant dans le dossier `assets/json`.
 La classe **Spot** (lib/core/model.spot.dart) représente un lieu et vous donne accès à de nombreuses informations sur celui-ci.
 
+### Exemples d'utilisation
 Récupérer la liste complète des spots :
 ```
 List<Spot> fullSpotList = SpotManager().spots;
@@ -46,3 +47,5 @@ En cliquant sur ce bouton, vous récupérerez un spot au hasard dans la liste et
 4. Implémentez une fonction **getSpotByName** dans le singleton `SpotManager`.
 Utilisez cette fonction pour implémenter une fonctionnalité de recherche par titre de spot dans votre application.
 
+5. Affectez un **ScrollController** à votre ListView pour implémenter une liste paginée.
+Vous pouvez utiliser la fonction `getSomeSpots` pour simuler une pagination.
