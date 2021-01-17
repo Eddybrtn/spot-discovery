@@ -39,6 +39,7 @@ Spot randomSpot = SpotManager().getRandomSpot();
     - isRecommended : faites apparaître un bandeau avec le label `Recommandé` si **true**
     - isClosed : faites appaître un bandeau avec le label `Fermé` si **true**
     - tagsCategory : affichez les catégories dans une ListView
+
 Lors du clic sur un élément de la liste de votre première vue, redirigez l'utilisateur sur la vue de détail.
 
 3. Ajoutez un FloatingActionButton sur la page d'accueil.
