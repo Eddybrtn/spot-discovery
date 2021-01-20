@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:core';
 import 'dart:math';
 
 import 'package:flutter/material.dart';
@@ -51,5 +52,19 @@ class SpotManager {
       return spots.getRange(startIndex, endIndex).toList();
     }
     return null;
+  }
+
+  /// Renvoie les spots dont le titre contient la chapine de caractère passée
+  /// en paramètre
+  List<Spot> getSpotsByName(String name) {
+    List<Spot> matchingSpots = List();
+    if (spots != null && spots.isNotEmpty) {
+      for (Spot spot in spots) {
+        if (spot.title.toLowerCase().contains(name.toLowerCase())) {
+          matchingSpots.add(spot);
+        }
+      }
+    }
+    return matchingSpots;
   }
 }
