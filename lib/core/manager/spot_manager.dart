@@ -1,9 +1,10 @@
-import 'dart:convert';
 import 'dart:core';
 import 'dart:math';
 
-import 'package:flutter/material.dart';
+import 'package:spot_discovery/core/manager/api_manager.dart';
+import 'package:spot_discovery/core/manager/database_manager.dart';
 import 'package:spot_discovery/core/model/spot.dart';
+import 'package:spot_discovery/core/model/spot_comment.dart';
 
 class SpotManager {
   List<Spot> spots;
@@ -14,19 +15,25 @@ class SpotManager {
 
   SpotManager._internal();
 
-  /// Charge et renvoie la liste complète de spots depuis le fichier json local
-  Future<List<Spot>> loadSpots(BuildContext context) async {
-    // Opening json file
-    var jsonString = await DefaultAssetBundle.of(context)
-        .loadString("assets/json/spots.json");
-    // Decoding json
-    var json = jsonDecode(jsonString);
-    // Mapping data
-    spots = List<Map<String, dynamic>>.from(json["data"])
-        .map((json) => Spot.fromJson(json))
-        .toList();
+  /// Charge et renvoie la liste complète de spots
+  Future<List<Spot>> loadSpots() async {
+    // Calling API
+    try {
+      var response = await ApiManager().getAllSpots();
+      if (response != null && response.data != null) {
+        // Mapping data
+        spots = List<Map<String, dynamic>>.from(response.data["data"])
+            .map((json) => Spot.fromJson(json))
+            .toList();
+      }
+    } catch (e) {
+      print(e);
+    }
     return spots;
   }
+
+  Future<List<Spot>> loadFavoriteSpots() async =>
+      await DatabaseManager().getFavoriteSpots();
 
   /// Renvoie un spot aléatoire de la liste pré-chargée
   Spot getRandomSpot() {
@@ -54,7 +61,7 @@ class SpotManager {
     return null;
   }
 
-  /// Renvoie les spots dont le titre contient la chapine de caractère passée
+  /// Renvoie les spots dont le titre contient la chaine de caractère passée
   /// en paramètre
   List<Spot> getSpotsByName(String name) {
     List<Spot> matchingSpots = List();
@@ -66,5 +73,36 @@ class SpotManager {
       }
     }
     return matchingSpots;
+  }
+
+  Future<Spot> getSpot(int idSpot) async {
+    Spot spot;
+    try {
+      var response = await ApiManager().getSpot(idSpot);
+      if (response != null && response.data != null) {
+        spot = Spot.fromJson(response.data);
+      }
+    } catch (e, s) {
+      print(s);
+    }
+    return spot;
+  }
+
+  Future<SpotComment> sendComment(int idSpot, String comment) async {
+    try {
+      SpotComment spotComment = SpotComment()
+        ..comment = comment
+        ..createdAt = DateTime.now().millisecondsSinceEpoch;
+      var response = await ApiManager().postComment(idSpot, spotComment);
+      if (response != null && response.data != null) {
+        // Comment successfully sent
+        return spotComment;
+      } else {
+        return null;
+      }
+    } catch (e, s) {
+      print(s);
+      return null;
+    }
   }
 }

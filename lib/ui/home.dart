@@ -1,7 +1,6 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:spot_discovery/core/manager/spot_manager.dart';
-import 'package:spot_discovery/core/model/spot.dart';
-import 'package:spot_discovery/ui/spot_detail.dart';
+import 'package:spot_discovery/ui/pages/spot_list_page.dart';
 
 class HomePage extends StatefulWidget {
   HomePage({Key key, this.title}) : super(key: key);
@@ -22,35 +21,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final List<Spot> filteredSpots = List();
-  final List<Spot> paginatedSpotList = List();
-  final TextEditingController searchController = TextEditingController();
-  final ScrollController scrollController = ScrollController();
-
-  int offset = 0;
-  bool isLoadingMore = false;
-
-  @override
-  void initState() {
-    searchController.addListener(() {
-      searchSpots(searchController.text);
-    });
-    scrollController.addListener(() {
-      if (scrollController.position.pixels >=
-              scrollController.position.maxScrollExtent &&
-          paginatedSpotList.length < SpotManager().spots.length && !isLoadingMore) {
-        isLoadingMore = true;
-        // Le bas de la liste est atteint et + de spots sont disponibles
-        setState(() {
-          paginatedSpotList.addAll(SpotManager()
-              .getSomeSpots(startIndex: offset, endIndex: offset + 15));
-          offset += 15;
-        });
-        isLoadingMore = false;
-      }
-    });
-    super.initState();
-  }
+  int _currentIndex = 0;
+  PageController _pageController = PageController();
 
   @override
   Widget build(BuildContext context) {
@@ -60,130 +32,40 @@ class _HomePageState extends State<HomePage> {
     // fast, so that you can just rebuild anything that needs updating rather
     // than having to individually change instances of widgets.
     return Scaffold(
-      appBar: AppBar(
-        // Here we take the value from the HomePage object that was created by
-        // the App.build method, and use it to set our appbar title.
-        title: Text(widget.title),
-      ),
-      body: FutureBuilder(
-        future: SpotManager().loadSpots(context),
-        builder: (context, snapshot) {
-          if (snapshot.hasData) {
-            List<Spot> spots;
-            if (searchController.text != null &&
-                searchController.text.isNotEmpty) {
-              spots = filteredSpots;
-            } else {
-              if (paginatedSpotList.length == 0) {
-                paginatedSpotList.addAll(SpotManager().getSomeSpots());
-                offset = paginatedSpotList.length;
-              }
-              spots = paginatedSpotList;
-            }
-            return SingleChildScrollView(
-              controller: scrollController,
-              child: Column(
-                children: [
-                  Padding(
-                    padding: const EdgeInsets.all(8),
-                    child: Row(
-                      children: [
-                        Expanded(
-                          child: TextField(
-                            controller: searchController,
-                            decoration: InputDecoration(
-                                hintText: "Rechercher...",
-                                border: OutlineInputBorder(
-                                  borderRadius:
-                                      BorderRadius.all(Radius.circular(6)),
-                                )),
-                            textInputAction: TextInputAction.done,
-                            onSubmitted: (term) {
-                              searchSpots(term);
-                            },
-                          ),
-                        ),
-                        IconButton(
-                          icon: Icon(Icons.search),
-                          onPressed: () {
-                            searchSpots(searchController.text);
-                          },
-                        )
-                      ],
-                    ),
-                  ),
-                  ListView.builder(
-                    shrinkWrap: true,
-                    primary: false,
-                    itemBuilder: (context, position) {
-                      Spot spot = spots[position];
-                      return InkWell(
-                        onTap: () {
-                          Navigator.of(context).pushNamed(SpotDetail.route,
-                              arguments: SpotDetailArguments(spot: spot));
-                        },
-                        child: Row(
-                          children: [
-                            Container(
-                                width: 100,
-                                height: 100,
-                                child: Image.network(
-                                  spot.imageThumbnail,
-                                  fit: BoxFit.cover,
-                                )),
-                            SizedBox(
-                              width: 16,
-                            ),
-                            Expanded(
-                              child: Column(
-                                mainAxisAlignment: MainAxisAlignment.center,
-                                crossAxisAlignment: CrossAxisAlignment.start,
-                                children: [
-                                  Text(
-                                    spot.title,
-                                    style: TextStyle(fontSize: 16),
-                                  ),
-                                  SizedBox(
-                                    height: 8,
-                                  ),
-                                  Text("Catégorie : ${spot.mainCategory.name}")
-                                ],
-                              ),
-                            )
-                          ],
-                        ),
-                      );
-                    },
-                    itemCount: spots.length,
-                  ),
-                ],
-              ),
-            );
-          } else {
-            return Center(
-              child: CircularProgressIndicator(),
-            );
-          }
-        },
-      ), // This
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Spot randomSpot = SpotManager().getRandomSpot();
-          Navigator.of(context).pushNamed(SpotDetail.route,
-              arguments: SpotDetailArguments(spot: randomSpot));
-        },
-        child: Icon(
-          Icons.shuffle,
-          color: Colors.white,
+        appBar: AppBar(
+          // Here we take the value from the HomePage object that was created by
+          // the App.build method, and use it to set our appbar title.
+          title: Text(widget.title),
         ),
-      ), // trailing comma makes auto-formatting nicer for build methods.
-    );
-  }
-
-  void searchSpots(String term) async {
-    setState(() {
-      filteredSpots.clear();
-      filteredSpots.addAll(SpotManager().getSpotsByName(term));
-    });
+        bottomNavigationBar: BottomNavigationBar(
+          items: [
+            BottomNavigationBarItem(
+                label: "Liste",
+                icon: Icon(Icons.list),
+                activeIcon: Icon(
+                  Icons.list,
+                  color: Colors.blue,
+                )),
+            BottomNavigationBarItem(
+                label: "Favoris",
+                icon: Icon(CupertinoIcons.heart),
+                activeIcon: Icon(
+                  CupertinoIcons.heart_fill,
+                  color: Colors.blue,
+                ))
+          ],
+          currentIndex: _currentIndex,
+          onTap: (newIndex) {
+            setState(() {
+              _currentIndex = newIndex;
+            });
+            _pageController.animateToPage(_currentIndex,
+                duration: kThemeAnimationDuration, curve: Curves.ease);
+          },
+        ),
+        body: PageView(
+          controller: _pageController,
+          children: [SpotListPage(), SpotListPage(fromFavorite: true)],
+        ));
   }
 }
