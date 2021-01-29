@@ -187,9 +187,6 @@ class _SpotDetailState extends State<SpotDetail> {
                             snapshot.hasData
                                 ? _SpotComments(
                                     spot,
-                                    onCommentPosted: (SpotComment newComment) {
-                                      setState(() {});
-                                    },
                                   )
                                 : Container()
                           ],
@@ -229,9 +226,9 @@ class _SpotDescription extends StatelessWidget {
 class _SpotComments extends StatelessWidget {
   final Spot spot;
   final TextEditingController commentFieldController = TextEditingController();
-  final Function(SpotComment newComment) onCommentPosted;
+  final GlobalKey<AnimatedListState> animatedListKey = GlobalKey();
 
-  _SpotComments(this.spot, {this.onCommentPosted});
+  _SpotComments(this.spot);
 
   @override
   Widget build(BuildContext context) {
@@ -254,13 +251,16 @@ class _SpotComments extends StatelessWidget {
                   child: Text("Laisser un avis"))
             ],
           ),
-          ListView.builder(
+          AnimatedList(
+            key: animatedListKey,
+            initialItemCount: spot.comments?.length ?? 0,
             shrinkWrap: true,
             primary: false,
-            itemBuilder: (context, position) {
-              return _CommentItem(spot.comments[position]);
+            itemBuilder: (context, position, animation) {
+              return SizeTransition(
+                  sizeFactor: animation,
+                  child: _CommentItem(spot.comments[position]));
             },
-            itemCount: spot.comments?.length ?? 0,
           )
         ],
       ),
@@ -292,7 +292,8 @@ class _SpotComments extends StatelessWidget {
                     SpotComment postedComment = await SpotManager()
                         .sendComment(spot.id, commentFieldController.text);
                     if (postedComment != null) {
-                      onCommentPosted(postedComment);
+                      spot.comments.insert(0, postedComment);
+                      animatedListKey.currentState.insertItem(0);
                       Navigator.pop(context);
                     }
                   }
