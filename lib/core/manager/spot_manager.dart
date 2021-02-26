@@ -1,6 +1,7 @@
 import 'dart:core';
 import 'dart:math';
 
+import 'package:spot_discovery/app/locator.dart';
 import 'package:spot_discovery/core/manager/api_manager.dart';
 import 'package:spot_discovery/core/manager/database_manager.dart';
 import 'package:spot_discovery/core/model/spot.dart';
@@ -19,7 +20,8 @@ class SpotManager {
   Future<List<Spot>> loadSpots() async {
     // Calling API
     try {
-      var response = await ApiManager().getAllSpots();
+      print("Fetching all spots");
+      var response = await locator<ApiManager>().getAllSpots();
       if (response != null && response.data != null) {
         // Mapping data
         spots = List<Map<String, dynamic>>.from(response.data["data"])
@@ -78,7 +80,7 @@ class SpotManager {
   Future<Spot> getSpot(int idSpot) async {
     Spot spot;
     try {
-      var response = await ApiManager().getSpot(idSpot);
+      var response = await locator<ApiManager>().getSpot(idSpot);
       if (response != null && response.data != null) {
         spot = Spot.fromJson(response.data);
       }
@@ -93,7 +95,8 @@ class SpotManager {
       SpotComment spotComment = SpotComment()
         ..comment = comment
         ..createdAt = DateTime.now().millisecondsSinceEpoch;
-      var response = await ApiManager().postComment(idSpot, spotComment);
+      var response =
+          await locator<ApiManager>().postComment(idSpot, spotComment);
       if (response != null && response.data != null) {
         // Comment successfully sent
         return spotComment;

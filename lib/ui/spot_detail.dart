@@ -1,9 +1,12 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:spot_discovery/core/manager/database_manager.dart';
+import 'package:provider/provider.dart';
 import 'package:spot_discovery/core/manager/spot_manager.dart';
 import 'package:spot_discovery/core/model/spot.dart';
 import 'package:spot_discovery/core/model/spot_comment.dart';
+import 'package:spot_discovery/core/viewmodels/my_model.dart';
+import 'package:spot_discovery/core/viewmodels/spot_detail_viewmodel.dart';
+import 'package:spot_discovery/ui/my_widget.dart';
 
 class SpotDetailArguments {
   Spot spot;
@@ -11,7 +14,7 @@ class SpotDetailArguments {
   SpotDetailArguments({this.spot});
 }
 
-class SpotDetail extends StatefulWidget {
+class SpotDetail extends StatelessWidget {
   static const route = "/spot";
 
   final Spot spot;
@@ -19,52 +22,33 @@ class SpotDetail extends StatefulWidget {
   SpotDetail(this.spot);
 
   @override
-  State<StatefulWidget> createState() => _SpotDetailState(spot);
-}
-
-class _SpotDetailState extends State<SpotDetail> {
-  Spot spot;
-  bool isFavorite;
-
-  _SpotDetailState(this.spot);
-
-  @override
   Widget build(BuildContext context) {
-    return WillPopScope(
-      onWillPop: () async {
-        Navigator.pop(context, isFavorite);
-        return true;
-      },
-      child: FutureBuilder<List<dynamic>>(
-          future: Future.wait([
-            SpotManager().getSpot(spot.id),
-            DatabaseManager().isFavorite(spot.id)
-          ]),
-          builder: (context, snapshot) {
-            if (snapshot.hasData) {
-              spot = snapshot.data[0];
-              isFavorite = snapshot.data[1];
-            }
-            return Scaffold(
+    return ChangeNotifierProvider(
+        create: (BuildContext context) {
+          return MyModel();
+        },
+        child: MyWidget());
+
+    return ChangeNotifierProvider<SpotDetailViewModel>(
+      create: (_) => SpotDetailViewModel(spot),
+      child: Consumer<SpotDetailViewModel>(
+        builder: (context, SpotDetailViewModel model, child) => WillPopScope(
+            onWillPop: () async {
+              Navigator.pop(context, model.isFavorite);
+              return true;
+            },
+            child: Scaffold(
                 appBar: AppBar(
-                  title: Text(spot.title),
+                  title: Text(model.spot.title),
                 ),
-                floatingActionButton: isFavorite != null
-                    ? FloatingActionButton(
-                        onPressed: () async {
-                          if (isFavorite != null) {
-                            await DatabaseManager()
-                                .toggleFavorite(isFavorite, spot);
-                            setState(() {
-                              isFavorite = !isFavorite;
-                            });
-                          }
-                        },
-                        child: Icon(isFavorite
-                            ? CupertinoIcons.heart_fill
-                            : CupertinoIcons.heart),
-                      )
-                    : null,
+                floatingActionButton: FloatingActionButton(
+                  onPressed: () async {
+                    model.toggleFavorite();
+                  },
+                  child: Icon(model.isFavorite
+                      ? CupertinoIcons.heart_fill
+                      : CupertinoIcons.heart),
+                ),
                 body: SingleChildScrollView(
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -77,14 +61,14 @@ class _SpotDetailState extends State<SpotDetail> {
                             child: PageView.builder(
                               itemBuilder: (context, position) {
                                 return Image.network(
-                                  snapshot.hasData
-                                      ? spot.imagesCollection[position]
-                                      : spot.imageFullsize,
+                                  model.hasFetchedSpotDetail()
+                                      ? model.spot.imagesCollection[position]
+                                      : model.spot.imageFullsize,
                                   fit: BoxFit.cover,
                                 );
                               },
-                              itemCount: snapshot.hasData
-                                  ? spot.imagesCollection.length
+                              itemCount: model.hasFetchedSpotDetail()
+                                  ? model.spot.imagesCollection.length
                                   : 1,
                             ),
                           ),
@@ -94,7 +78,7 @@ class _SpotDetailState extends State<SpotDetail> {
                               SizedBox(
                                 height: 16,
                               ),
-                              widget.spot.isRecommended
+                              model.spot.isRecommended
                                   ? Container(
                                       padding: const EdgeInsets.all(6),
                                       decoration: BoxDecoration(
@@ -111,7 +95,7 @@ class _SpotDetailState extends State<SpotDetail> {
                               SizedBox(
                                 height: 8,
                               ),
-                              widget.spot.isClosed
+                              model.spot.isClosed
                                   ? Container(
                                       padding: const EdgeInsets.all(6),
                                       decoration: BoxDecoration(
@@ -136,7 +120,7 @@ class _SpotDetailState extends State<SpotDetail> {
                           crossAxisAlignment: CrossAxisAlignment.stretch,
                           children: [
                             Text(
-                              widget.spot.title,
+                              model.spot.title,
                               style: TextStyle(fontSize: 20),
                             ),
                             SizedBox(
@@ -148,7 +132,7 @@ class _SpotDetailState extends State<SpotDetail> {
                                 scrollDirection: Axis.horizontal,
                                 itemBuilder: (context, position) {
                                   String tag =
-                                      widget.spot.tagsCategory[position].name;
+                                      model.spot.tagsCategory[position].name;
                                   return Container(
                                     padding: const EdgeInsets.all(8.0),
                                     decoration: BoxDecoration(
@@ -166,27 +150,27 @@ class _SpotDetailState extends State<SpotDetail> {
                                     SizedBox(
                                   width: 8,
                                 ),
-                                itemCount: widget.spot.tagsCategory.length,
+                                itemCount: model.spot.tagsCategory.length,
                               ),
                             ),
                             SizedBox(
                               height: 12,
                             ),
-                            Text("Adresse : ${widget.spot.address}"),
+                            Text("Adresse : ${model.spot.address}"),
                             SizedBox(
                               height: 12,
                             ),
                             Text(
-                                "Gare la plus proche : ${widget.spot.trainStation ?? "inconnue"}"),
+                                "Gare la plus proche : ${model.spot.trainStation ?? "inconnue"}"),
                             SizedBox(
                               height: 20,
                             ),
-                            snapshot.hasData
-                                ? _SpotDescription(spot.description)
+                            model.hasFetchedSpotDetail()
+                                ? _SpotDescription(model.spot.description)
                                 : Container(),
-                            snapshot.hasData
+                            model.hasFetchedSpotDetail()
                                 ? _SpotComments(
-                                    spot,
+                                    model.spot,
                                   )
                                 : Container()
                           ],
@@ -194,8 +178,8 @@ class _SpotDetailState extends State<SpotDetail> {
                       )
                     ],
                   ),
-                ));
-          }),
+                ))),
+      ),
     );
   }
 }

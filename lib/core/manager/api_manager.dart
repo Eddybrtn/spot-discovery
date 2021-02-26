@@ -1,14 +1,13 @@
 import 'package:dio/dio.dart';
+import 'package:injectable/injectable.dart';
 import 'package:spot_discovery/core/model/spot_comment.dart';
 
+@singleton
 class ApiManager {
-  static final ApiManager _instance = ApiManager._internal();
-
-  factory ApiManager() => _instance;
-
   Dio dio;
 
-  ApiManager._internal() {
+  ApiManager() {
+    print("Creating dio client");
     dio = Dio();
     dio.options.baseUrl =
         "https://spot-discovery-5b840-default-rtdb.firebaseio.com";
@@ -20,8 +19,7 @@ class ApiManager {
   Future<Response<Map<String, dynamic>>> getSpot(int idSpot) async =>
       await dio.get<Map<String, dynamic>>("/spot-details/$idSpot.json");
 
-  Future<Response<Map<String, dynamic>>> postComment(
-          int spotId, SpotComment comment) async =>
+  Future<Response<Map<String, dynamic>>> postComment(int spotId, SpotComment comment) async =>
       await dio.post("/spot-details/$spotId/comments.json",
           data: comment.toJson());
 }
